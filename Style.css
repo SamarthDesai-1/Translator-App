@@ -1,0 +1,39 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  max-width: 400px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  /* border: 2px solid black; */
+  margin: auto;
+}
+.btn {
+  margin-top: 10px;
+  width: fit-content;
+  background-color: green;
+  color: white;
+  border-style: none;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.input {
+  border-radius: 10px;
+  outline: none;
+  padding: 10px;
+}
+#translateText {
+  color: cadetblue;
+}
+.drop-down {
+  margin-top: 15px;
+}
+.opt {
+  padding: 10px 10px;
+  min-width: 400px;
+  border-radius: 10px;
+}
